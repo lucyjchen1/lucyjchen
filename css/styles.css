@@ -1,0 +1,81 @@
+body{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top:15px;
+	margin-bottom:7rem;
+	padding:0;
+	font-family: Inter, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;}
+a{
+	color: black;
+	text-decoration: none;}
+a:hover{
+	weblot-filter:blur(3px);
+	filter:blur(3px);
+	transition:.4s;}
+h1{
+	font-weight: 700;}
+h3{
+	color: grey;
+	font-weight:400;
+	font-size:14px;}
+#nav{
+	display: table;
+	width:100%;
+	height: 150px;}
+#nav a{
+	color:black;
+	text-decoration:none;}
+#nav a:hover{
+	weblot-filter:blur(3px);
+	filter:blur(3px);
+	transition:.4s;}
+.row{
+	width:100%;
+	display:table-row;}
+.left{
+	width:15%;
+	padding-top:5px;
+	padding-right:20px;
+	display:table-cell;}
+.mid{
+	width:15%;
+	padding-top:5px;
+	padding-right:20px;
+	display:table-cell;}
+.right{
+	width:60%;
+	padding-top:5px;
+	display:table-cell;}
+table{
+	width:100%;
+	border-collapse:collapse;}
+tr{
+	width:100%;
+	border-top:solid;
+	border-width:.75px;
+	border-color:rgb(190,190,190);}
+tr:hover{
+	webkit-filter:blur(3px);
+	filter:blur(3px);
+	transition:.4s;}
+img{width:100%;}
+td{vertical-align: top;}
+#contact{
+	width:25%;
+	padding-right:20px;
+	display:table-cell;
+	vertical-align:top;
+}
+#aboutme{
+	width:25%;
+	padding-right:20px;
+	display:table-cell;
+	vertical-align:top;
+}
+#profilepic{
+	width:25%;
+	display:table-cell;
+}
