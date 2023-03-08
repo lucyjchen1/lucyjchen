@@ -58,6 +58,17 @@ h3{	font-size:13px;
 	border-width:.5px;
 	border-color: black;
 	}
+.list-contact{
+	width:100%;
+	position:absolute;
+	bottom: 2px;
+	display:table;
+	padding-top:12px;
+	padding-bottom:8px;
+	border-top:solid;
+	border-width:.5px;
+	border-color: black;
+	}
 a:hover{
 	cursor:pointer;
 }
@@ -76,7 +87,7 @@ a:hover .info{
 .images{
 	width:100%;
 	display:table-cell;
-	padding-right:0px;
+	padding-right:14px;
 	}
 .col{
 	width:50%;
@@ -160,6 +171,13 @@ img{
 	padding-right:14px;
 	margin:0;}
 	
+	.list-contact{
+	position:relative;
+	width:auto;
+	padding-left:14px;
+	padding-right:14px;
+	margin:0;}
+	
 	.navimage{display:none;}
 	
 	.info{width:100%;
@@ -170,7 +188,8 @@ img{
 	margin-bottom:14px;}
 	.images{width:100%;
 	display:table-cell;
-	padding-top:14px;}
+	padding-top:14px;
+	padding-right:0;}
 	
 	.footer{
 	padding-left:14px;
@@ -203,7 +222,11 @@ img{
 	margin:0;}
 	#contact{width:auto;display:table-row;
 	}
-	#aboutme{width:auto;display:table-row;}
+	#aboutme{
+	border-top:solid;
+	border-width:.5px;
+	border-color: black;
+	width:auto;display:table-row;}
 	#profilepic{display:table-row;}
 	#welcome{padding-left:0px;}	
 }
