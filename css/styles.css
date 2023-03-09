@@ -19,10 +19,11 @@ h2{ font-size: 13px;
 	display:inline;}
 h3{	font-size:13px;
 	font-weight:400;
-	color: grey;
+	color: black;
 	font-style:italic;
 	margin:0;
 	text-align: center;
+	padding-bottom:10px;
 	}
 
 	
