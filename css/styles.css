@@ -67,7 +67,7 @@ h3{	font-size:13px;
 	padding-top:12px;
 	padding-bottom:8px;
 	border-top:solid;
-	border-width:.5px;
+	border-width:1px;
 	border-color: black;
 	}
 a:hover{
@@ -133,6 +133,7 @@ img{
 	padding-left:14px;
 	width:45%;
 	display:table-cell;
+	
 }
 #foot2{
 	width:45%;
@@ -225,7 +226,7 @@ img{
 	}
 	#aboutme{
 	border-top:solid;
-	border-width:.5px;
+	border-width:1px;
 	border-color: black;
 	width:auto;display:table-row;}
 	#profilepic{display:table-row;}
