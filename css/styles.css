@@ -11,8 +11,8 @@ a{	color: black;
 	text-decoration: underline;}
 a:hover{
 	color: red;
-	cursor: pointer;
-	}
+	cursor: pointer;	}
+	
 h1{	font-size:18px;
 	font-weight: 500;}
 h2{ font-size: 13px;
@@ -36,6 +36,7 @@ h3{	font-size:13px;
 	}
 #nav a{text-decoration:none;
 }
+
 .link{text-decoration:none;}
 .row{
 	width:100%;
@@ -70,12 +71,7 @@ h3{	font-size:13px;
 	border-width:1px;
 	border-color: black;
 	}
-a:hover{
-	cursor:pointer;
-}
-a:hover .info{
-	font-color:grey;
-}
+
 .info{
 	width:35%;
 	max-width:100px;
@@ -85,11 +81,24 @@ a:hover .info{
 	padding-right:5%;
 	vertical-align:top;
 	}
+
+.info2{
+	width:35%;
+	display:table-cell;
+	padding-top:0px;
+	padding-left:14px;
+	padding-right:7px;
+	vertical-align:top;
+	}
+	
 .images{
 	width:100%;
 	display:table-cell;
 	padding-right:14px;
 	}
+
+
+	
 .col{
 	width:50%;
 	display:table-cell;
@@ -214,10 +223,7 @@ img{
 	.col2{width:100%;
 	display:table-row;
 	padding:0;}
-	
 
-
-	
 	.row{width:87%;
 	padding-bottom: 14px;
 	display:table;
