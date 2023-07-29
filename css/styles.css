@@ -224,7 +224,8 @@ img{
 	display:table-row;
 	padding:0;}
 
-	.row{width:87%;
+	.row{
+	width:100%;
 	padding-bottom: 14px;
 	display:table;
 	margin:0;}
@@ -237,4 +238,12 @@ img{
 	width:auto;display:table-row;}
 	#profilepic{display:table-row;}
 	#welcome{padding-left:0px;}	
+	
+	.info2{
+		width:100%;
+		display:table-row;
+	}
+	.row-images{
+		width:100%;
+	}
 }
