@@ -126,10 +126,10 @@ img{
 	display:table-cell;
 	vertical-align:top;}
 #profilepic{
-	width:50%;
+	width:100%;
 	display:table-cell;}
 #profilepic img{
-	width:50%;
+	width:100%;
 }
 
 #welcome{
