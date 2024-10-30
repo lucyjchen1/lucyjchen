@@ -5,7 +5,7 @@ body{
 	font-size: 19px;
 	line-height: 25px;
 	font-weight: 500;
-	
+	background: #efefef;
 }
 a{	color: black;
 	text-decoration: underline;}
@@ -13,12 +13,17 @@ a:hover{
 	
 	cursor: pointer;	}
 	
-h1{	font-size:19px;
-	font-weight: 500;}
-h2{ font-size: 19px;
+h1{	font-family: Archivo Narrow, Inter, sans-serif;
+	font-size:19px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin:0;}
+h2{ font-family: Archivo Narrow, Inter, sans-serif;
+	font-size: 19px;
 	font-weight:500;
 	display:inline;}
-h3{	font-size:19px;
+h3{	font-family: Archivo Narrow, Inter, sans-serif;
+	font-size:19px;
 	font-weight:400;
 	color: black;
 	font-style:italic;
@@ -26,6 +31,18 @@ h3{	font-size:19px;
 	text-align: center;
 	padding-bottom:10px;
 	}
+h4{ font-family: Instrument Serif, serif;
+	font-size: 55px;
+	font-weight:500;
+	margin:0;
+	line-height: 55px;}
+h5{	font-family: Archivo Narrow, sans-serif;
+	font-size: 19px;
+	margin: 0;}
+h6{	font-family: Instrument Serif, serif;
+	font-size: 22px;
+	font-weight:700;
+	margin:0;}
 	
 #block{height:150px;}
 #nav{
