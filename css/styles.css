@@ -18,10 +18,10 @@ h1{	font-family: Archivo Narrow, Inter, sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin:0;}
-h2{ font-family: Archivo Narrow, Inter, sans-serif;
-	font-size: 19px;
+h2{ font-family: Instrument Serif, serif;
+	font-size: 80px;
 	font-weight:500;
-	display:inline;}
+	line-height:80px;}
 h3{	font-family: Archivo Narrow, Inter, sans-serif;
 	font-size:19px;
 	font-weight:400;
@@ -45,6 +45,7 @@ h6{	font-family: Instrument Serif, serif;
 	margin:0;}
 	
 #block{height:150px;}
+#block1{height:20px;}
 #nav{
 	display: table;
 	width:100%;
@@ -53,6 +54,8 @@ h6{	font-family: Instrument Serif, serif;
 	}
 #nav a{text-decoration:none;
 }
+#bio{margin-left:14px;
+	margin-right:14px;}
 
 .link{text-decoration:none;}
 .row{
@@ -143,8 +146,8 @@ img{
 	display:table-cell;
 	vertical-align:top;}
 #profilepic{
-	width:70%;
-	display:table-cell;}
+	width:30%;
+	display:absolute;}
 #profilepic img{
 	width:70%;
 	padding-right:10px;
