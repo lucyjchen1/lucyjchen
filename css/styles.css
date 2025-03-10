@@ -54,7 +54,8 @@ h6{	font-family: Instrument Serif, serif;
 	}
 #nav a{text-decoration:none;
 }
-#bio{margin-left:14px;
+#bio{
+	padding-left:35%;
 	margin-right:14px;}
 
 .link{text-decoration:none;}
